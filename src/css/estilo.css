@@ -2,10 +2,12 @@
 @font-face {
     font-family: "Bright";
     src: url("../fonts/Bright\ DEMO.otf");
+}
+
+@font-face {
     font-family: "Albert Sans";
     src: url("../fonts/AlbertSans-VariableFont_wght.ttf");
 }
-
 
 /* cores */
 :root{
@@ -26,13 +28,13 @@ body{
     background-color: var(--background);
 }
 header{
-    
     background-color: #702720;
     padding-left: 3%;
     display: flex;             
     justify-content: space-between; 
     align-items: center;      
-    padding: 15px 20px 15px;
+    padding: 0px 20px 15px;
+    font-family: Bright;
 }
 header h1 a{
     font-family: Bright;
@@ -51,6 +53,22 @@ header nav a{
     text-decoration: none;
     font-family: 'Albert Sans';
     font-size: 1.5rem ;
+}
+section{
+    background-color: var(--color1);
+    font-family: Bright ;
+    font-size: 100px;
+    line-height: 80px;
+    color: var(--background);
+}
+#textoMain span{
+    color: var(--color2);
+}
+#textoMain{
+    padding-top: 30px;
+}
+#imgMain{
+    padding-top: 100px;
 }
 
 /* Responsividade */
