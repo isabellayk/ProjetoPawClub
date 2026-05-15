@@ -2,11 +2,16 @@
 @font-face {
     font-family: "Bright";
     src: url("../fonts/Bright\ DEMO.otf");
+}
+
+@font-face {
     font-family: "Albert Sans";
     src: url("../fonts/AlbertSans-VariableFont_wght.ttf");
 }
-
-
+@font-face {
+    font-family: "Butler";
+    src: url("../fonts/Butler_Regular.otf");
+}
 /* cores */
 :root{
     --color1:#702720;
@@ -26,13 +31,13 @@ body{
     background-color: var(--background);
 }
 header{
-    
     background-color: #702720;
     padding-left: 3%;
     display: flex;             
     justify-content: space-between; 
     align-items: center;      
-    padding: 15px 20px 15px;
+    padding: 0px 20px 0px;
+    font-family: Bright;
 }
 header h1 a{
     font-family: Bright;
