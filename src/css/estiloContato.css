@@ -57,6 +57,9 @@ header nav a{
     font-family: 'Albert Sans';
     font-size: 1.5rem ;
 }
+
+
+
 /* Responsividade */
 @media (max-width: 768px) {
     header {
