@@ -219,6 +219,25 @@ main {
     resize: none;
     border-radius: 25px;
 }
+#notificacao{
+    position: fixed;
+    top: 40%;
+    right: 36%;
+    background: var(--color3);
+    color: white;
+    padding: 15px 25px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.4s ease;
+    z-index: 99999;
+}
+
+#notificacao.mostrar{
+    opacity: 1;
+}
 #botao {
     background-color: var(--color1);
     color: var(--background);
