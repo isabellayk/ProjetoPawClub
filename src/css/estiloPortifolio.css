@@ -227,3 +227,223 @@ footer {
         font-size: 1.2rem;      
     }
 }
+/* =========================
+   MAIN PORTFÓLIO
+========================= */
+
+.titulo{
+    font-family: 'Albert Sans', sans-serif;
+    color: var(--color1);
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+/* =========================
+   BANHOS
+========================= */
+
+.bloco-banhos{
+    margin-bottom: 90px;
+}
+
+.fundo-azul-banhos{
+    background-color: var(--color2);
+    width: 240px;
+    height: 240px;
+    border-radius: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    overflow: hidden;
+}
+
+.banho-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.titulo-servico{
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: var(--color1);
+
+    margin-bottom: 18px;
+}
+
+.texto-servico{
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.2;
+
+    color: var(--color1);
+
+    margin-bottom: 20px;
+}
+
+.preco-servico{
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+
+    color: var(--color3);
+}
+
+/* =========================
+   ACESSÓRIOS
+========================= */
+
+.fundo-laranja-card{
+    background-color: var(--color4);
+
+    width: 220px;
+    height: 220px;
+
+    border-radius: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.acessorio-img{
+    width: 90%;
+    object-fit: contain;
+}
+
+.titulo-acessorio{
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+
+    color: var(--color1);
+}
+
+.preco-acessorio{
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+
+    line-height: 1.2;
+
+    color: var(--color3);
+}
+
+/* =========================
+   VETERINÁRIO
+========================= */
+
+.vet-container{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.fundo-verde-vet{
+    background-color: var(--color3);
+
+    width: 100%;
+    max-width: 950px;
+    height: 420px;
+
+    border-radius: 40px;
+
+    margin: 0 auto 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    overflow: hidden;
+}
+
+.vet-img{
+    width: 90%;
+    object-fit: contain;
+}
+
+.titulo-vet{
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+
+    color: var(--color3);
+
+    margin-bottom: 25px;
+}
+
+.texto-vet{
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.3;
+
+    color: var(--color1);
+
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* =========================
+   RESPONSIVO PORTFÓLIO
+========================= */
+
+@media (max-width: 768px){
+
+    .titulo{
+        font-size: 2.8rem;
+    }
+
+    .titulo-servico{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .texto-servico,
+    .preco-servico{
+        text-align: center;
+    }
+
+    .texto-servico{
+        font-size: 1.2rem;
+    }
+
+    .preco-servico{
+        font-size: 1.5rem;
+    }
+
+    .titulo-acessorio{
+        font-size: 1.5rem;
+    }
+
+    .preco-acessorio{
+        font-size: 1.2rem;
+    }
+
+    .fundo-laranja-card{
+        width: 180px;
+        height: 180px;
+    }
+
+    .fundo-verde-vet{
+        height: auto;
+        padding-top: 30px;
+    }
+
+    .titulo-vet{
+        font-size: 2.2rem;
+    }
+
+    .texto-vet{
+        font-size: 1.2rem;
+        padding: 0 15px;
+    }
+
+}
